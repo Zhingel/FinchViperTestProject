@@ -13,6 +13,10 @@
 		EE023A412789D7EB00110D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE023A3F2789D7EB00110D1C /* Main.storyboard */; };
 		EE023A432789D7EC00110D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE023A422789D7EC00110D1C /* Assets.xcassets */; };
 		EE023A462789D7EC00110D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE023A442789D7EC00110D1C /* LaunchScreen.storyboard */; };
+		EE023A522789D83600110D1C /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE023A4E2789D83600110D1C /* FirstPresenter.swift */; };
+		EE023A532789D83600110D1C /* FirstRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE023A4F2789D83600110D1C /* FirstRouter.swift */; };
+		EE023A542789D83600110D1C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE023A502789D83600110D1C /* FirstViewController.swift */; };
+		EE023A552789D83600110D1C /* FirstAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE023A512789D83600110D1C /* FirstAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		EE023A422789D7EC00110D1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE023A452789D7EC00110D1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE023A472789D7EC00110D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE023A4E2789D83600110D1C /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		EE023A4F2789D83600110D1C /* FirstRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRouter.swift; sourceTree = "<group>"; };
+		EE023A502789D83600110D1C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		EE023A512789D83600110D1C /* FirstAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +67,24 @@
 				EE023A392789D7EB00110D1C /* AppDelegate.swift */,
 				EE023A3B2789D7EB00110D1C /* SceneDelegate.swift */,
 				EE023A3D2789D7EB00110D1C /* ViewController.swift */,
+				EE023A4D2789D81500110D1C /* First */,
 				EE023A3F2789D7EB00110D1C /* Main.storyboard */,
 				EE023A422789D7EC00110D1C /* Assets.xcassets */,
 				EE023A442789D7EC00110D1C /* LaunchScreen.storyboard */,
 				EE023A472789D7EC00110D1C /* Info.plist */,
 			);
 			path = FinchViperTestProject;
+			sourceTree = "<group>";
+		};
+		EE023A4D2789D81500110D1C /* First */ = {
+			isa = PBXGroup;
+			children = (
+				EE023A4E2789D83600110D1C /* FirstPresenter.swift */,
+				EE023A4F2789D83600110D1C /* FirstRouter.swift */,
+				EE023A502789D83600110D1C /* FirstViewController.swift */,
+				EE023A512789D83600110D1C /* FirstAssembly.swift */,
+			);
+			path = First;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +161,10 @@
 				EE023A3E2789D7EB00110D1C /* ViewController.swift in Sources */,
 				EE023A3A2789D7EB00110D1C /* AppDelegate.swift in Sources */,
 				EE023A3C2789D7EB00110D1C /* SceneDelegate.swift in Sources */,
+				EE023A552789D83600110D1C /* FirstAssembly.swift in Sources */,
+				EE023A542789D83600110D1C /* FirstViewController.swift in Sources */,
+				EE023A532789D83600110D1C /* FirstRouter.swift in Sources */,
+				EE023A522789D83600110D1C /* FirstPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
